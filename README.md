@@ -31,6 +31,10 @@ Install aditional requirements:
 pip install nibabel SimpleITK nilearn pandas numpy
 ```
 
+## Patient Selection
+
+For this project, the initial step involved requesting access to the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. The focus was placed on patients who were initially diagnosed with Mild Cognitive Impairment (MCI), specifically identifying those who progressed to Alzheimer's Disease (AD) within a 24-month time frame. This allowed the construction of a dataset comprising two groups: MCI converters (patients who developed AD within 24 months) and MCI non-converters (patients who remained stable during the same period).
+
 ### Dataset
 https://www.kaggle.com/datasets/joeldv1/adni-change-mci-to-alzheimer-in-24-months
 
