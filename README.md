@@ -31,5 +31,8 @@ Install aditional requirements:
 pip install nibabel SimpleITK nilearn pandas numpy
 ```
 
+### Dataset
+https://www.kaggle.com/datasets/joeldv1/adni-change-mci-to-alzheimer-in-24-months
+
 ### References
 Danvalcor, jcg01, DairaRe. (2024). ADNI-FreeSurfer-Segmentation. Retrieved from: https://github.com/Danvalcor/ADNI-FreeSurfer-Segmentation
