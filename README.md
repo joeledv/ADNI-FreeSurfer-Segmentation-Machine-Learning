@@ -30,3 +30,6 @@ Install aditional requirements:
 ```bash
 pip install nibabel SimpleITK nilearn pandas numpy
 ```
+
+### References
+Danvalcor, jcg01, DairaRe. (2024). ADNI-FreeSurfer-Segmentation. Retrieved from: https://github.com/Danvalcor/ADNI-FreeSurfer-Segmentation
