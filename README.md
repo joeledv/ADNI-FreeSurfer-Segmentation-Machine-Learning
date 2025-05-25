@@ -39,4 +39,5 @@ For this project, the initial step involved requesting access to the Alzheimer's
 https://www.kaggle.com/datasets/joeldv1/adni-change-mci-to-alzheimer-in-24-months
 
 ### References
-Danvalcor, jcg01, DairaRe. (2024). ADNI-FreeSurfer-Segmentation. Retrieved from: https://github.com/Danvalcor/ADNI-FreeSurfer-Segmentation
+- Alzheimer's Disease Neuroimaging Initiative. (n.d.). ADNI: Alzheimer's Disease Neuroimaging Initiative. Retrieved from https://adni.loni.usc.edu
+- Danvalcor, jcg01, DairaRe. (2024). ADNI-FreeSurfer-Segmentation. Retrieved from: https://github.com/Danvalcor/ADNI-FreeSurfer-Segmentation
