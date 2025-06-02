@@ -48,7 +48,11 @@ https://www.kaggle.com/datasets/joeldv1/adni-change-mci-to-alzheimer-in-24-month
 
 ## Machine Learning
 
-For this project, several classification models were evaluated using training and test datasets. The most promising models were further optimized through Bayesian hyperparameter search. Among them, CatBoost and Random Forest Classifier demonstrated the best overall performance. After confirming that these models did not exhibit severe overfitting, they were retrained on the full dataset. The CatBoost model achieved an AUC of 0.97 and an F1-score of 0.88, while the Random Forest Classifier reached an AUC of 0.93 and an F1-score of 0.80.
+For this project, several classification models were evaluated using training and test datasets. The most promising models were first fine-tuned using BayesianSearchCV for hyperparameter optimization. Among them, CatBoost and Random Forest Classifier showed the best overall performance.
+
+After confirming that these models did not suffer from significant overfitting, they were retrained on the full dataset. The CatBoost model achieved an AUC of 0.97 and an F1-score of 0.88, while the Random Forest Classifier reached an AUC of 0.93 and an F1-score of 0.80.
+
+In a subsequent stage, additional hyperparameter optimization was conducted using the Optuna framework. Under this configuration, the CatBoost model was trained and evaluated on the full dataset, achieving perfect performance metrics with an AUC of 1.00 and an F1-score of 1.00.
 
 ### References
 - Alzheimer's Disease Neuroimaging Initiative. (n.d.). ADNI: Alzheimer's Disease Neuroimaging Initiative. Retrieved from https://adni.loni.usc.edu
